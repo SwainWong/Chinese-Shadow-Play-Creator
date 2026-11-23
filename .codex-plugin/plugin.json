@@ -1,0 +1,20 @@
+{
+  "name": "swain-chinese-shadow-play-creator",
+  "version": "1.2.0",
+  "description": "Create editable Chinese leather shadow plays, stage scenery and shot-based films; audit joints and prop contact.",
+  "author": {
+    "name": "SwainWong"
+  },
+  "homepage": "https://github.com/SwainWong/Chinese-Shadow-Play-Creator",
+  "repository": "https://github.com/SwainWong/Chinese-Shadow-Play-Creator",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Swain-Chinese-Shadow-Play-Creator",
+    "shortDescription": "制作可局部返修的中国彩皮皮影动画",
+    "developerName": "SwainWong",
+    "category": "Creativity",
+    "defaultPrompt": [
+      "将我的故事做成可局部返修的皮影戏，交付带声样片和可编辑工程。"
+    ]
+  }
+}

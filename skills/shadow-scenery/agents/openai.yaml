@@ -1,0 +1,4 @@
+interface:
+  display_name: "皮影舞台景片"
+  short_description: "制作可分层的皮影房屋、寺门、远近山丘与花草，验证透光、尺度、挂点和受风动作。"
+  default_prompt: "用 $shadow-scenery 制作一座能透过门洞看到内殿的寺庙，再用悟空检查比例。"

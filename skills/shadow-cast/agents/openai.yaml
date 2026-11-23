@@ -1,0 +1,4 @@
+interface:
+  display_name: "影偶造型与分件"
+  short_description: "为中国皮影人物、走兽和披甲形态定样与分件，安排同台尺寸、铰点、搭接和手型。"
+  default_prompt: "用 $shadow-cast 设计一尊四足熊及披甲身，安排针眼并做步态审看。"

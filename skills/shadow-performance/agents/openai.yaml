@@ -1,0 +1,4 @@
+interface:
+  display_name: "皮影身段与调度"
+  short_description: "编排两足猴步、腾云、翻身、移握与舞台对手戏，保持影偶支撑、局部弯向和道具接点。"
+  default_prompt: "用 $shadow-performance 把独足听风到腾云的起落拍点排在同一台口。"

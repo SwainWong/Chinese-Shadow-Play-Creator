@@ -1,0 +1,9 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>山门一阵风 · 景片审看</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#eee6d5;color:#33291f;font:16px/1.5 system-ui,"PingFang SC",sans-serif}main{max-width:1180px;margin:24px auto;padding:0 20px}header,section,fieldset{display:flex;gap:12px;align-items:center;flex-wrap:wrap}header{justify-content:space-between;margin-bottom:10px}h1{font:600 clamp(24px,4vw,36px) "Songti SC",serif;margin:0}a{color:#753d2c}canvas{width:100%;display:block;height:auto;background:#e5c79c}section{padding:14px 0}button,select{font:inherit;padding:4px 10px;background:#faf3e4;border:1px solid #a89679;border-radius:3px;color:inherit}button{cursor:pointer}input{accent-color:#894b33}#time{flex:1;min-width:120px}fieldset{border:1px solid #b8a88e;padding:8px 14px 12px}legend{padding:0 5px}label{white-space:nowrap}output{font-variant-numeric:tabular-nums}
+</style><main><header><h1>山门一阵风</h1><a href="scenery.mp4">播放十秒全片</a></header>
+<canvas width="1280" height="720" aria-label="彩皮景片同台试影"></canvas>
+<section><select id="shot" aria-label="选择场景"><option value="0">山麓人家</option><option value="1">古刹山门</option></select><button id="play">播放</button><button id="prev" aria-label="上一帧">−1 帧</button><button id="next" aria-label="下一帧">+1 帧</button><input id="time" aria-label="镜内帧" type="range" min="0" max="119" value="0"><output id="clock"></output></section>
+<fieldset id="layers"><legend>显示景片</legend></fieldset><audio preload="auto"></audio></main>
+<script src="production/monkey.js"></script><script src="production/moves.js"></script><script src="production/scene.js"></script><script src="production/stage.js"></script><script src="production/player.js"></script></html>

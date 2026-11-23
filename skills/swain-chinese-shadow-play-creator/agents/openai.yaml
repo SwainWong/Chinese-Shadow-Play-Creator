@@ -1,0 +1,4 @@
+interface:
+  display_name: "Swain-Chinese-Shadow-Play-Creator"
+  short_description: "将故事、口播或分镜编成可局部返修的中国彩皮影戏，协调分件、景片、表演、审片和交付。"
+  default_prompt: "用 $swain-chinese-shadow-play-creator 把我的故事排成皮影戏，先试演一镜，再交付影片和工程。"

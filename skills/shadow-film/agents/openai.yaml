@@ -1,0 +1,4 @@
+interface:
+  display_name: "口播渲染与局部合片"
+  short_description: "把皮影分镜、口播与音轨渲染成可编辑 HTML 和 MP4，按镜头缓存、返修并组装长片。"
+  default_prompt: "用 $shadow-film 把这个分镜导出成可重开的 HTML 与有声 MP4。"

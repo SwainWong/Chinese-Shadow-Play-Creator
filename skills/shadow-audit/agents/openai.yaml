@@ -1,0 +1,4 @@
+interface:
+  display_name: "皮影关节与成片审查"
+  short_description: "复核影偶反关节、针距、靴踝、颈腕搭接、遮挡、握位与接地，记录实际成片帧例。"
+  default_prompt: "用 $shadow-audit 检查悟空腾云的后靴和支撑足，给出帧号与返修依据。"

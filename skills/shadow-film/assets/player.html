@@ -1,0 +1,10 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>皮影戏预演</title>
+<style>*{box-sizing:border-box}body{margin:0;background:#211913;color:#f3e1c8;font:16px/1.4 system-ui}main{max-width:1280px;margin:auto}canvas{display:block;width:100%;height:auto}section{padding:16px 20px;display:flex;gap:20px;align-items:center}h1{font:500 21px 'Songti SC',serif;margin:0}audio{flex:1;min-width:110px}a{color:#e6c18a}</style>
+<main><canvas width="__WIDTH__" height="__HEIGHT__"></canvas><section><h1></h1><audio controls preload="auto" src="sound.wav"></audio><a href="story.json">分镜</a></section></main>
+<script src="timeline.js"></script><script src="stage.js"></script><script>
+document.title=DATA.title;document.querySelector('h1').textContent=DATA.title;
+const audio=document.querySelector('audio');
+function tick(){draw(audio.currentTime);if(!audio.paused&&!audio.ended)requestAnimationFrame(tick);}
+audio.addEventListener('play',()=>window.ready.then(tick));audio.addEventListener('seeked',()=>window.ready.then(()=>draw(audio.currentTime)));
+audio.addEventListener('ended',()=>draw(audio.duration));
+</script></html>
