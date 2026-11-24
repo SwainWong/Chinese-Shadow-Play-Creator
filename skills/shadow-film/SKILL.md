@@ -10,3 +10,5 @@ description: 把皮影分镜、口播与音轨渲染成可编辑 HTML 和 MP4，
 从本 skill 目录运行 `python3 scripts/render.py examples/lantern.json --out /path/to/new-shot --size 640x360 --fps 12`。改为自己的 story.json 和新输出目录即可另开一镜。自定义舞台用 `--stage-js`。交付时核对字幕、音轨、帧数、离线预演与源文件。[素材记录](references/art.md)
 
 长戏将每镜登记到 film.json，按[按镜头修改与合成](references/partial-edits.md)运行 `python3 scripts/assemble.py film.json --out /path/to/new-cut`。看 build.json 确认只重算被修改的镜头并复用其余镜头。
+
+中文说书从[朗读节奏](../shadow-mandarin-narration/SKILL.md)的意群谱起步。以定稿录音重排字幕与声点，镜头保持已确认的构图和人物比例。

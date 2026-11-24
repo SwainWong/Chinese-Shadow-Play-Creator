@@ -6,17 +6,17 @@
 
 ## 在 Codex 安装
 
-使用支持 `codex plugin` 的 Codex，从 GitHub 安装此版本：
+在此仓库根目录使用支持 `codex plugin` 的 Codex 安装检出的版本。
 
 ```sh
-codex plugin marketplace add SwainWong/Chinese-Shadow-Play-Creator --ref v1.2.0
+codex plugin marketplace add "$PWD"
 codex plugin add swain-chinese-shadow-play-creator@swain-shadow-play
 codex plugin list --marketplace swain-shadow-play --json
 ```
 
 新对话中可直接说：**“用 $swain-chinese-shadow-play-creator，把这个故事做成十秒的有声皮影试演，保留能改动作的工程。”** 插件展示名为 **Swain-Chinese-Shadow-Play-Creator**，命令使用小写标识符。
 
-## 六个 skill
+## 七个 skill
 
 | 调用 | 负责的内容 |
 |---|---|
@@ -26,6 +26,7 @@ codex plugin list --marketplace swain-shadow-play --json
 | [`$shadow-performance`](skills/shadow-performance/SKILL.md) | 悟空十五式、落足、腾云、换握、道具与关键帧 |
 | [`$shadow-audit`](skills/shadow-audit/SKILL.md) | 定长、关节弯向、握点、遮挡、接地与成片检查 |
 | [`$shadow-film`](skills/shadow-film/SKILL.md) | 口播字幕、带声 MP4、离线 HTML、单镜重渲与合片 |
+| [`$shadow-mandarin-narration`](skills/shadow-mandarin-narration/SKILL.md) | 中文说书意群、句内轻停、句间留白、录音与字幕同步 |
 
 ## 从源码试一镜
 

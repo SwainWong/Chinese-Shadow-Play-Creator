@@ -1,0 +1,4 @@
+interface:
+  display_name: "中文说书朗读节奏"
+  short_description: "按意群编排中文古典旁白的句内短停与句间留白，复核录音、字幕及画面节奏。"
+  default_prompt: "用 $shadow-mandarin-narration 给这段原文划朗读节奏，保留繁体字幕，并按自然语速试读。"
