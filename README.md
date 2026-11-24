@@ -6,7 +6,14 @@
 
 ## 在 Codex 安装
 
-在此仓库根目录使用支持 `codex plugin` 的 Codex 安装检出的版本。
+从 GitHub 安装 v1.3.0。
+
+```sh
+codex plugin marketplace add SwainWong/Chinese-Shadow-Play-Creator --ref v1.3.0
+codex plugin add swain-chinese-shadow-play-creator@swain-shadow-play
+```
+
+已经克隆仓库时，也可在仓库根目录从本机源码安装。
 
 ```sh
 codex plugin marketplace add "$PWD"
